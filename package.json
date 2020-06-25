@@ -1,0 +1,22 @@
+{
+  "name": "gulp-pug-build",
+  "version": "1.0.0",
+  "description": "attempt to build a pug build architecture with dev server",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-data": "^1.3.1",
+    "gulp-live-server": "0.0.31",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-purgecss": "^2.3.0",
+    "gulp-sass": "^4.1.0",
+    "js-yaml": "^3.14.0",
+    "tailwindcss": "^1.4.6"
+  }
+}

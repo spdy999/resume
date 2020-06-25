@@ -1,0 +1,49 @@
+include views/section.pug
+
+doctype html
+html
+  head
+    meta(name="viewport",content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="index.css")
+  body.container.my-6.mx-auto
+      h1.text-4xl.text-center.font-bold(class="print:text-2xl") #{name}
+      .grid(class="md:grid-cols-2 print:grid-cols-2")
+        .my-2.text-center(class="md:text-left md:my-0 print:text-left")
+          ul
+            li Email: #{email}
+            if tel
+              li Contact: #{tel}
+            li GitHub: #{github}
+      if address
+        .my-2.text-center(class="md:text-right md:my-0 print:text-right")
+          ul
+            each address_line in locals.address
+              li= address_line
+      .my-6
+      +section('Education')
+        each item in locals.education
+          +section-item(item)
+      +section('Work Experience')
+        each item in locals.work_experience
+          +section-item(item)
+      +section('Projects')
+        each item in locals.projects
+          +section-item(item)
+      +section('Extracurricular Activities')
+        each item in locals.extracurricular_activities
+          +section-item(item)
+      +section('Awards and Competitions')
+        each item in locals.awards
+          +section-item-compact(item)
+      +section('Skills')
+        .container.pl-10
+          ul.list-disc
+            li
+              span.font-bold Languages:  
+              | #{locals.skills.languages.join(', ')}
+            li
+              span.font-bold Programming Languages:  
+              | #{locals.skills.programming_languages.join(', ')}
+            li
+              span.font-bold Other Technical Skills: 
+              | #{locals.skills.other_technical.join(', ')}

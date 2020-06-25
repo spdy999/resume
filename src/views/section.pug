@@ -1,0 +1,26 @@
+mixin section(title)
+  section
+    .section-title= title
+    if block
+      block
+
+mixin section-item(item)
+  .section-item
+    .section-item-title
+      .section-item-title-text= item.title
+      if item.date
+        .section-item-date= item.date
+    if item.subtitle
+      .section-item-subtitle= item.subtitle
+    if item.details
+      .container.pl-10
+        ul.list-disc
+          each detail in item.details
+            li= detail
+
+mixin section-item-compact(item)
+  .section-item-compact
+    .section-item-title
+      .section-item-title-text= item.title
+      if item.date
+        .section-item-date= item.date
