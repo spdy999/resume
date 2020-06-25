@@ -16,13 +16,9 @@ const buildCss = (minify = true) => function buildCss() {
     .pipe(postcss(postCSSPlugins))
 
   if (minify) {
-    const purgeCSS = require('gulp-purgecss');
     const cleanCSS = require('gulp-clean-css');
 
     pipeline = pipeline
-      .pipe(purgeCSS({
-      content: [`${paths.outDir}/**/*.html`]
-      }))
       .pipe(cleanCSS({
         compatibility: 'ie8'
       }));

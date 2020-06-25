@@ -8,13 +8,18 @@ const buildCss = require('./build-css');
 
 const paths = require('./paths');
 
+function prod(cb) {
+  process.env.NODE_ENV = 'production';
+  cb();
+}
+
 function clean() {
   return del([
     `${paths.outDir}/**/*`
   ]);
 }
 
-exports.default = series(clean, buildPug, buildCss());
+exports.default = series(prod, clean, buildPug, buildCss());
 exports.watch = function() {
   const server = liveServer.static(paths.outDir);
   server.start();
@@ -24,7 +29,7 @@ exports.watch = function() {
     server.lr.changed({ body: { files: [filePath]}})
   }
   
-  watch(['src/**/*'], { ignoreInitial: false }, parallel(buildPug, buildCss(false)));
+  watch(['src/**/*'], { ignoreInitial: false }, parallel(buildPug, buildCss(true)));
 
   const outputWatcher = watch([`${paths.outDir}/**/*`]);
   outputWatcher.on('all', liveReload)

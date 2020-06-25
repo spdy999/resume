@@ -1,5 +1,7 @@
 module.exports = {
-  purge: [],
+  purge: [
+    'src/**/*.pug'
+  ],
   theme: {
     extend: {
       screens: {
