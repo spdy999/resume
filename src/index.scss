@@ -26,10 +26,6 @@ body {
 }
 
 section {
-  @screen print {
-
-  }
-
   .section-title {
     @apply border-solid border-b-2 border-black font-bold my-2;
   }
