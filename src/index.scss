@@ -25,6 +25,10 @@ body {
   page-break-after: always;
 }
 
+a {
+  @apply underline;
+}
+
 section {
   .section-title {
     @apply border-solid border-b-2 border-black font-bold my-2;
