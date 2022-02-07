@@ -5,7 +5,8 @@ html
   head
     meta(name="viewport",content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet", href="index.css")
-  body.container.my-6.mx-auto
+    title #{name}'s resume
+  body.container.mx-auto
       h1.text-4xl.text-center.font-bold(class="print:text-2xl") #{name}
       .grid(class="md:grid-cols-2 print:grid-cols-2")
         .my-2.text-center(class="md:text-left md:my-0 print:text-left")
@@ -21,7 +22,7 @@ html
             if address
               each address_line in locals.address
                 li= address_line
-      .my-4
+      .my-2
       +section('Education')
         each item in locals.education
           +section-item(item)
