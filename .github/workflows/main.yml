@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: oleksiyrudenko/gha-git-credentials@v2-latest
         with:
-          token: '${{ secrets.GITHUB_TOKEN }}'
+          token: '${{ secrets.GH_TOKEN }}'
             
       - name: Setup Node
         uses: actions/setup-node@v1
