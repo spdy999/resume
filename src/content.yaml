@@ -13,9 +13,9 @@ work_experience:
     date: June 2019 - Present
     subtitle: Software Engineer
     details:
-      - Built new functionalities across multiple systems to integrate with partner's booking systems (rurubu.travel and japanican.com)
+      - Built new functionalities in Agoda's Booking Engine to integrate with partner's booking systems (rurubu.travel and japanican.com)
       - Built new web page to allow hotel owners to manage a part of their hotels' prices and contents in Agoda's system.
-      - Built an automated periodic task to evaluate hotel deals and label them as Agoda Special Offers based on their prices and included benefits 
+      - Built an automated periodic task to evaluate hotel deals and label them as Agoda Special Offers based on their prices and included benefits.
   - title: Kasikorn Business and Technology Group (KBTG), Bangkok, Thailand
     date: June 2018 - August 2018
     subtitle: Developer intern, Blockchain Team
@@ -52,10 +52,6 @@ extracurricular_activities:
 awards:
   - title: Google CodeJam - Passed Qualification Round
     date: 2021
-  - title: TOT Hackathon - Winner in Big Data Analytics
-    date: 2019
-  - title: Pizza Hackathon - Winner
-    date: 2018
   - title: ACM - National Round
     date: 2016
 skills:
