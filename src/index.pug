@@ -23,6 +23,8 @@ html
               each address_line in locals.address
                 li= address_line
       .my-2
+      +section('Summary')
+        p= summary
       +section('Education')
         each item in locals.education
           +section-item(item)

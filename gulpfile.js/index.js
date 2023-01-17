@@ -29,7 +29,7 @@ exports.watch = function() {
     server.lr.changed({ body: { files: [filePath]}})
   }
   
-  watch(['src/**/*'], { ignoreInitial: false }, parallel(buildPug, buildCss(true)));
+  watch(['src/**/*', 'content/**/*'], { ignoreInitial: false }, parallel(buildPug, buildCss(true)));
 
   const outputWatcher = watch([`${paths.outDir}/**/*`]);
   outputWatcher.on('all', liveReload)

@@ -1,7 +1,7 @@
 const { src, dest } = require('gulp');
 
 const postcss = require('gulp-postcss');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const tailwindcss = require('tailwindcss');
 
 const paths = require('./paths');

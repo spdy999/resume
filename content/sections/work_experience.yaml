@@ -1,0 +1,13 @@
+- title: Agoda Services Pte. Co, Ltd.
+  date: June 2019 - Present
+  subtitle: Software Engineer
+  details:
+    - Design & Implement system to receive incoming customer chat messages & route them to customer service agents. With UI for agents to send & receive chat messages.
+    - Built an automated periodic task to evaluate hotel deals and label them as Agoda Special Offers based on their prices and included benefits.
+    - Built new web page to allow hotel owners to manage a part of their hotels' prices and contents in Agoda's system.
+    - Built new functionalities in Agoda's Booking Engine to integrate with partner's booking systems (rurubu.travel and japanican.com)
+- title: Kasikorn Business and Technology Group (KBTG), Bangkok, Thailand
+  date: June 2018 - August 2018
+  subtitle: Developer intern, Blockchain Team
+  details:
+    - Implemented scripts and a web UI that helps automate deploying Hyperledger Fabric blockchain nodes.
