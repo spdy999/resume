@@ -4,5 +4,5 @@ github: https://github.com/peawyoyoyin
 page_source: https://github.com/peawyoyoyin/resume
 summary: |
   Software Engineer with 3 years of experience, Bachelor's Degree in Computer Engineering, and passion in building software.
-  Experienced in full-stack software development using React, TypeScript, Scala, Kotlin and C#. 
+  Experienced in full-stack software development using React, TypeScript, Scala, Kotlin and C#. Other related technology includes MSSQL, Kafka
 <<: !!inc/dir ['sections', { excludeTopLevelDirSeparator: true }]

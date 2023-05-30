@@ -6,12 +6,16 @@ mixin section(title)
 
 mixin section-item(item)
   .section-item
+    if item.title
+      .section-item-title
+        .section-item-title-text= item.title
+        if item.date
+          .section-item-date= item.date
     .section-item-title
-      .section-item-title-text= item.title
-      if item.date
-        .section-item-date= item.date
-    if item.subtitle
-      .section-item-subtitle= item.subtitle
+      if item.subtitle
+        .section-item-subtitle= item.subtitle
+        if !item.title & item.date
+          .section-item-date= item.date
     if item.details
       .container.pl-10
         ul.list-disc

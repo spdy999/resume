@@ -1,10 +1,16 @@
 - title: Agoda Services Pte. Co, Ltd.
-  date: June 2019 - Present
+  date: Febuary 2023 - Present
+  subtitle: Senior Software Engineer
+  details:
+    - Designed & Implemented system to receive incoming customer chat messages & route them to customer service agents. Backend was built using Kotlin/Ktor, MSSQL, Kafka.
+    - Implemented UI for customer service agents to send & receive chat messages. Frontend was built using React/TypeScript and Backend was built using Kotlin/Ktor
+    - Led & Participated in Design Discussions with 8 team members & collaborated with other teams.
+- date: June 2019 - January 2023
   subtitle: Software Engineer
   details:
-    - Design & Implement system to receive incoming customer chat messages & route them to customer service agents. With UI for agents to send & receive chat messages.
-    - Built an automated periodic task to evaluate hotel deals and label them as Agoda Special Offers based on their prices and included benefits.
-    - Built new web page to allow hotel owners to manage a part of their hotels' prices and contents in Agoda's system.
+    - Designed & Implemented an Email Scheduling functionality where users can schedule emails that would be sent later using Scala.
+    - Built an automated periodic task to evaluate hotel deals and label them as Agoda Special Offers based on their prices and included benefits using Scala & Akka Scheduler.
+    - Built new web page to allow hotel owners to manage a part of their hotels' prices and contents in Agoda's system. Frontend was built using React/TypeScript and Backend was built using C# (ASP.NET/.NET core) & Scala.
     - Built new functionalities in Agoda's Booking Engine to integrate with partner's booking systems (rurubu.travel and japanican.com)
 - title: Kasikorn Business and Technology Group (KBTG), Bangkok, Thailand
   date: June 2018 - August 2018
