@@ -12,8 +12,11 @@
     - Built an automated periodic task to evaluate hotel deals and label them as Agoda Special Offers based on their prices and included benefits using Scala & Akka Scheduler.
     - Built new web page to allow hotel owners to manage a part of their hotels' prices and contents in Agoda's system. Frontend was built using React/TypeScript and Backend was built using C# (ASP.NET/.NET core) & Scala.
     - Built new functionalities in Agoda's Booking Engine to integrate with partner's booking systems (rurubu.travel and japanican.com)
-- title: Kasikorn Business and Technology Group (KBTG), Bangkok, Thailand
-  date: June 2018 - August 2018
-  subtitle: Developer intern, Blockchain Team
+- title: P Fresh Company
+  date: Feb 2018 - Sep 2019
+  subtitle: Outsource Developer, Backend
   details:
-    - Implemented scripts and a web UI that helps automate deploying Hyperledger Fabric blockchain nodes.
+    - Implemented scripts and a web UI tFrontend used NodeJS, VueJS, and Docker.
+    - Develop and design admin pages with team to support entire vegetable storage warehouse system.
+    - Backend used NodeJS, Django, MySQL, GraphQL, TypeORM, and Docker.
+    - Developed GraphQL and REST API to support Frontendhat helps automate deploying Hyperledger Fabric blockchain nodes.

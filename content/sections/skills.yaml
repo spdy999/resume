@@ -3,10 +3,8 @@ languages:
   - English (Fluent)
 programming_languages:
   - JavaScript/TypeScript
-  - Scala
-  - C#
   - Python
-  - Kotlin
+  - Ruby
 other_technical:
   - React
   - Redux
@@ -14,6 +12,7 @@ other_technical:
   - GraphQL
   - CSS
   - SQL
-  - Kafka
   - Docker
-  - Ktor
+  - Kubernetes
+  - Elasticsearch
+
