@@ -25,11 +25,11 @@ html
       .my-2
       +section('Summary')
         p= summary
-      +section('Education')
-        each item in locals.education
-          +section-item(item)
       +section('Work Experience')
         each item in locals.work_experience
+          +section-item(item)
+      +section('Education')
+        each item in locals.education
           +section-item(item)
       +section('Extracurricular Activities')
         each item in locals.extracurricular_activities
