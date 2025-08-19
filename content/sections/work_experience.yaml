@@ -1,22 +1,37 @@
-- title: Agoda Services Pte. Co, Ltd.
-  date: Febuary 2023 - Present
-  subtitle: Senior Software Engineer
+- title: Thoughtworks
+  date: July 2021 - Present
+  subtitle: Full Stack Developer
   details:
-    - Designed & Implemented system to receive incoming customer chat messages & route them to customer service agents. Backend was built using Kotlin/Ktor, MSSQL, Kafka.
-    - Implemented UI for customer service agents to send & receive chat messages. Frontend was built using React/TypeScript and Backend was built using Kotlin/Ktor
-    - Led & Participated in Design Discussions with 8 team members & collaborated with other teams.
-- date: June 2019 - January 2023
-  subtitle: Software Engineer
+    - Developed solutions to airline business booking management problems, along with customer engagements, by detailed analysis, negotiation, and coordination with main decision-makers.
+    - Reduce Infrastructure maintenance costs by 75% per year, approximately $200,000, within a month without losing any performance.
+    - Designed scalable solutions that supported the growth of the platform's millions of active users base, without compromising performance.
+    - Main anchor to resolve complex technical issues through thorough analysis, contributing to the success of high-profile projects within a timely restriction, and under high pressure.
+    - Being a main anchor resolving and mitigating security issues.
+    - Created POC for innovative new solutions.
+    - Prepared documents to support problem analysis.
+    - Executed program modifications and changes and documented results of software research tools and applications.
+    - Collaborated with cross-functional teams to ensure integration of applications within the platform ecosystem.
+    - Trained and supported new team members.
+    - Consulted with clients to align future software development with customer priorities.
+- title: Pomelo Fashion
+  date: Feb 2021 - July 2021
+  subtitle: Backend Senior Associate
   details:
-    - Designed & Implemented an Email Scheduling functionality where users can schedule emails that would be sent later using Scala.
-    - Built an automated periodic task to evaluate hotel deals and label them as Agoda Special Offers based on their prices and included benefits using Scala & Akka Scheduler.
-    - Built new web page to allow hotel owners to manage a part of their hotels' prices and contents in Agoda's system. Frontend was built using React/TypeScript and Backend was built using C# (ASP.NET/.NET core) & Scala.
-    - Built new functionalities in Agoda's Booking Engine to integrate with partner's booking systems (rurubu.travel and japanican.com)
+    - Develop backend software to support e-commerce for Fashion company
+- title: SSTP Enterprise Co., Ltd.
+  date: Dec 2019 - Dec 2020
+  subtitle: Backend Developer
+  details:
+    - Design and develop Normal match, Matchmaking, Single Elimination game database and API to support gaming system.
+- title: True e-logistics
+  date: Jun 2019 - Nov 2019
+  subtitle: Full Stack Developer
+  details:
+    - Develop admin, engineer team, and logistics map webpages for true engineers logistics management.
+    - Design API for supporting every responsible frontend admin pages.
+    - Encourage and develop TDD system for minimizing services problems.
 - title: P Fresh Company
   date: Feb 2018 - Sep 2019
   subtitle: Outsource Developer, Backend
   details:
-    - Implemented scripts and a web UI tFrontend used NodeJS, VueJS, and Docker.
-    - Develop and design admin pages with team to support entire vegetable storage warehouse system.
-    - Backend used NodeJS, Django, MySQL, GraphQL, TypeORM, and Docker.
-    - Developed GraphQL and REST API to support Frontendhat helps automate deploying Hyperledger Fabric blockchain nodes.
+    - Develop and design backend of admin pages with a team to support entire vegetable storage warehouse system.
