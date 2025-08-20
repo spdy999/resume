@@ -1,37 +1,38 @@
 - title: Thoughtworks
   date: July 2021 - Present
   subtitle: Full Stack Developer
-  details: # TODO: add techstack inline
+  details:
     - Developed solutions to airline business booking management problems, along with customer engagements, by detailed analysis, negotiation, and coordination with main decision-makers.
-    - Reduced infrastructure maintenance costs by 75% (approximately $200,000 annually) within one month through EC2 cost optimization, without compromising performance.
-    - Designed and implemented scalable solutions that supported the growth of the platform's millions of active users base.
     - Main anchor to resolve complex technical and security issues through thorough analysis, contributing to the success of high-profile projects within a timely restriction, and under high pressure.
+    - Reduced infrastructure maintenance costs by 75% (approximately $200,000 annually) within one month through EC2 cost optimization, without compromising performance. Tech stacks are K8s, AWS services such as EKS and EC2.
+    - Designed and implemented scalable solutions that supported the growth of the platform's millions of active users base.
     - Developed  conduct loadtest isolated sandbox and on environment to ensure apllication capability before going production. 
     - Researched new software tools and documented the findings.
     - Collaborated with cross-functional teams to ensure integration of applications within the platform ecosystem.
     - Trained and supported new team members.
     - Consulted with clients to align future software development with customer priorities.
     - Developed proof of concept for innovative new solutions. Prepared documents to suppot problem analysis.
-    - Developed Seat and MMB frontend pages, including A/B testing and feature flag implementation.
+    - Developed Seat and Manage My Booking(MMB) system frontend pages, including A/B testing and feature flag implementation.
 - title: Pomelo Fashion
   date: Feb 2021 - July 2021
   subtitle: Backend Senior Associate
   details:
-    - Developed backend software to support e-commerce for Fashion company
+    - Developed backend for authentication system to support e-commerce for Fashion company using AWS cognito.
 - title: SSTP Enterprise Co., Ltd.
   date: Dec 2019 - Dec 2020
   subtitle: Backend Developer
   details:
-    - Designed and developed Normal match, Matchmaking, Single Elimination game database and API to support gaming system. # TODO: ask ai to make normies understand
+    - Designed and developed Normal match, Matchmaking, Single Elimination game database and API to support game competition system using Ruby on Rails
 - title: True e-logistics
   date: Jun 2019 - Nov 2019
   subtitle: Full Stack Developer
   details:
-    - Develop admin, engineer team, and logistics map webpages for True engineers workforce management. 
-    - Design API for supporting every responsible frontend admin pages.
+    - Develop admin, engineer team, and logistics map webpages for True engineers workforce management using React.
+    - Design API for supporting every responsible frontend admin pages using REST API with TypeScript and GraphQL.
     - Encourage and develop TDD system for minimizing services problems.
 - title: P Fresh Company
   date: Feb 2018 - Sep 2019
   subtitle: Outsource Developer, Backend
   details:
-    - Develop and design backend of admin pages with a team to support entire vegetable storage warehouse system.
+    - Develop and design backend of admin pages with a team to support entire vegetable storage warehouse system using Vue, TypeScript, MySQL, TypeORM, and Django.
+
