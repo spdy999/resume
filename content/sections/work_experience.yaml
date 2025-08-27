@@ -6,6 +6,8 @@
     - Main anchor to resolve complex technical and security issues through thorough analysis, contributing to the success of high-profile projects within a timely restriction, and under high pressure.
     - Reduced infrastructure maintenance costs by 75% (~$200K annually) within one month through EC2 cost optimization, while maintaining performance; utilized Kubernetes (K8s) and AWS services including EKS and EC2.
     - Designed and implemented scalable solutions that supported the growth of the platform's millions of active users base.
+    - Designed and managed AWS architectures across multiple clusters and VPCs with VPC peering, endpoints, and endpoint services while enforcing IAM least-privilege policies and strengthening network security.
+    - Automated infrastructure with Terraform/CloudFormation, reducing manual overhead and deployment risk.
     - Developed  conduct loadtest isolated sandbox and on environment to ensure apllication capability before going production.
     - Delivered security guidance and consulting to an account supporting ~20 teams (~100 members)
     - Researched new software tools and documented the findings.
