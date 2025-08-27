@@ -5,6 +5,7 @@ programming_languages:
   - JavaScript/TypeScript
   - Python
   - Ruby
+  - Bash
 other_technical:
   - Kubernetes
   - AWS services
@@ -17,14 +18,11 @@ other_technical:
   - CodeBuild
   - React
   - Redux
+  - NodeJS
   - HTML
   - GraphQL
   - SQL
-  - Elasticsearch
   - Ruby on Rails
   - Algolia
   - Google Cloud Pub/Sub
-  - NodeJS
-  - Recompose
-  - Styled-component
   - TypeORM
