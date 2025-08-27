@@ -12,6 +12,9 @@ other_technical:
   - Unix/Linux
   - Kali Linux
   - Github Action
+  - Terraform
+  - CloudFormation
+  - CodeBuild
   - React
   - Redux
   - HTML
