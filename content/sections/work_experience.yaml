@@ -5,9 +5,8 @@
     - Developed solutions to airline business booking management problems, along with customer engagements, by detailed analysis, negotiation, and coordination with main decision-makers.
     - Main anchor to resolve complex technical and security issues through thorough analysis, contributing to the success of high-profile projects within a timely restriction, and under high pressure.
     - Reduced infrastructure maintenance costs by 75% (~$200K annually) within one month through EC2 cost optimization, while maintaining performance; utilized Kubernetes (K8s) and AWS services including EKS and EC2.
-    - Designed and implemented scalable solutions that supported the growth of the platform's millions of active users base.
-    - Designed and managed AWS architectures across multiple clusters and VPCs with VPC peering, endpoints, and endpoint services while enforcing IAM least-privilege policies and strengthening network security.
-    - Automated infrastructure with Terraform/CloudFormation, reducing manual overhead and deployment risk.
+    - Designed, implemented, and managed scalable and secure AWS architectures across multiple clusters and VPCs, supporting the growth of the platform’s millions of active users and ensuring compliance with organizational and regulatory standards.
+    - Automated infrastructure with IAC, reducing manual overhead and deployment risk.
     - Developed  conduct loadtest isolated sandbox and on environment to ensure apllication capability before going production.
     - Delivered security guidance and consulting to an account supporting ~20 teams (~100 members)
     - Researched new software tools and documented the findings.
@@ -15,7 +14,7 @@
     - Trained and supported new team members.
     - Consulted with clients to align future software development with customer priorities.
     - Developed proof of concept for innovative new solutions. Prepared documents to suppot problem analysis.
-    - Developed Seat and Manage My Booking(MMB) system frontend pages, including A/B testing and feature flag implementation; utilized React.
+    - Developed Seat and Manage My Booking system frontend pages, including A/B testing and feature flag implementation; utilized React.
 - title: Pomelo Fashion
   date: Feb 2021 - July 2021
   subtitle: Backend Senior Associate
