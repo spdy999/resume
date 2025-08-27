@@ -15,6 +15,7 @@ other_technical:
   - Github Action
   - Terraform
   - CloudFormation
+  - ArgoCD
   - CodeBuild
   - React
   - Redux
