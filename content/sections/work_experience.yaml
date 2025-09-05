@@ -4,6 +4,7 @@
   details:
     - Developed solutions to airline business booking management problems, along with customer engagements, by detailed analysis, negotiation, and coordination with main decision-makers.
     - Main anchor to resolve complex technical and security issues through thorough analysis, contributing to the success of high-profile projects within a timely restriction, and under high pressure.
+    - Led the security initiative and mitigation of critical bypass vulnerabilities, specifically path traversal and Local File Inclusion (LFI)
     - Reduced infrastructure maintenance costs by 75% (~$200K annually) within one month through AWS EC2 cost optimization, while maintaining performance.
     - Designed, implemented, and managed scalable and secure ArgoCD deployments and AWS architectures across multiple EKS clusters and VPCs, supporting the growth of the platform’s millions of active users and ensuring compliance with organizational and regulatory standards.
     - Automated infrastructure with IAC, reducing manual overhead and deployment risk.
