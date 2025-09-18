@@ -17,6 +17,7 @@ other_technical:
   - CloudFormation
   - ArgoCD
   - CodeBuild
+  - DataDog
   - React
   - Redux
   - NodeJS
