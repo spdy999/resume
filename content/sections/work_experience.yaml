@@ -3,41 +3,41 @@
   subtitle: DevSecOps
   stacks: AWS(EKS,EC2, ECR,VPC,Secret Manager,IRSA,IAM), K8s, Docker, Kustomize, ArgoCD, Terraform, GithubAction, ReactJS
   details:
-    - Developed solutions to airline business booking management problems, along with customer engagements, by detailed analysis, negotiation, and coordination with main decision-makers.
-    - Main anchor to resolve complex technical and security issues through thorough analysis, contributing to the success of high-profile projects within a timely restriction, and under high pressure.
+    - Developed solutions for airline booking management challenges through data-driven analysis, stakeholder negotiation, and direct customer engagement.
+    - Cut infrastructure maintenance costs by $200K annually within one month while sustaining performance.
+    - Main anchor to resolve critical technical and security issues under high pressure, enabling timely delivery of high-impact projects.
+    - Implemented scalable and secure microservices architecture on AWS, leveraging multiple EKS clusters and VPCs to support millions of active users.
+    - Automated infrastructure with IaC and managed ArgoCD deployments to reduce manual overhead and deployment risk.
     - Led remediation of critical security flaws, including admin bypass via path traversal, and established best-practice controls to harden both development and production environments.
-    - Reduced infrastructure maintenance costs by 75% (~$200K annually) within one month through AWS EC2 cost optimization, while maintaining performance.
-    - Implemented scalable, secure microservices architecture on AWS, managing ArgoCD deployments and optimizing infrastructure across multiple EKS clusters and VPCs, supporting the growth of the platform’s millions of active users while enhancing performance and scalability.
-    - Automated infrastructure with IAC, reducing manual overhead and deployment risk.
-    - Developed conduct load testing isolated sandbox and on environment to ensure application capability before going production.
+    - Led load testing in isolated sandboxes env to validate application readiness before production rollout.
     - Delivered security guidance and consulting to an account supporting ~20 teams (~100 members)
     - Researched new software tools and documented the findings.
-    - Collaborated with cross-functional teams to ensure integration of applications within the platform ecosystem.
-    - Mentored and provided ongoing support to senior-level team members, fostering their growth and enhancing team capabilities.
-    - Developed proof of concept for innovative new solutions. Prepared documents to support problem analysis.
+    - Collaborated with cross-functional teams to ensure integration of microservice applications.
+    - Mentored senior-level engineers, fostering skill development and team growth.
+    - Developed PoCs for innovative new solutions. Prepared documents to support problem analysis.
 - title: Pomelo Fashion
   date: Feb 2021 - July 2021
   subtitle: Backend Senior Associate
   stacks: AWS Serverless for cognito system
   details:
-    - Developed backend for authentication system to support e-commerce for Fashion company; utilized AWS cognito.
+    - Developed backend for authentication system to support e-commerce for Fashion company.
 - title: SSTP Enterprise Co., Ltd.
   date: Dec 2019 - Dec 2020
   subtitle: Backend Developer
   stacks: Ruby on Rails, Algolia, Firebase, Google Cloud Pub/Sub, Docker, K8s
   details:
-    - Designed and developed Normal match, Matchmaking, Single Elimination game database and API to support game competition system; utilized Ruby on Rails, Sentry and Sidekiq.
+    - Designed and developed game competition systems including Normal Match, Matchmaking, and Single Elimination, by building robust databases and APIs.
 - title: True elogistics
   date: Jun 2019 - Nov 2019
   subtitle: Full Stack Developer
-  stacks: NodeJS, ReactJS, Recompose, Styled-component, Apollo GraphQL, GraphQL, MongoDB, REST API, Docker, K8s
+  stacks: NodeJS, ReactJS, Apollo GraphQL, GraphQL, MongoDB, REST API, Docker, K8s
   details:
-    - Develop admin, engineer team, and logistics map webpages for True engineers workforce management; utilized React.
-    - Design API for supporting every responsible frontend admin pages; utilized REST API with TypeScript and GraphQL.
-    - Encourage and develop TDD system for minimizing services problems.
+    - Developed admin, engineer team, and logistics map webpages for True engineers workforce management
+    - Designed API for supporting every responsible frontend admin pages
+    - Encouraged and developed TDD system for minimizing services problems.
 - title: P Fresh Company
   date: Feb 2018 - Sep 2019
   subtitle: Outsource Developer, Backend
   stacks: NodeJS, VueJS, Django, MySQL, GraphQL, TypeORM, Docker
   details:
-    - Develop and design backend of admin pages with a team to support entire vegetable storage warehouse system; utilized Vue, TypeScript, MySQL, TypeORM, and Django.
+    - Developed backend of admin pages with a team to support entire vegetable storage warehouse system
