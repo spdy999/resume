@@ -1,6 +1,7 @@
 - title: Thoughtworks
   date: July 2021 - Present
   subtitle: DevSecOps
+  stacks: AWS(EKS,EC2, ECR,VPC,Secret Manager,IRSA,IAM), K8s, Docker, Kustomize, ArgoCD, Terraform, GithubAction, ReactJS
   details:
     - Developed solutions to airline business booking management problems, along with customer engagements, by detailed analysis, negotiation, and coordination with main decision-makers.
     - Main anchor to resolve complex technical and security issues through thorough analysis, contributing to the success of high-profile projects within a timely restriction, and under high pressure.
@@ -17,16 +18,19 @@
 - title: Pomelo Fashion
   date: Feb 2021 - July 2021
   subtitle: Backend Senior Associate
+  stacks: AWS Serverless for cognito system
   details:
     - Developed backend for authentication system to support e-commerce for Fashion company; utilized AWS cognito.
 - title: SSTP Enterprise Co., Ltd.
   date: Dec 2019 - Dec 2020
   subtitle: Backend Developer
+  stacks: Ruby on Rails, Algolia, Firebase, Google Cloud Pub/Sub, Docker, K8s
   details:
     - Designed and developed Normal match, Matchmaking, Single Elimination game database and API to support game competition system; utilized Ruby on Rails, Sentry and Sidekiq.
 - title: True elogistics
   date: Jun 2019 - Nov 2019
   subtitle: Full Stack Developer
+  stacks: NodeJS, ReactJS, Recompose, Styled-component, Apollo GraphQL, GraphQL, MongoDB, REST API, Docker, K8s
   details:
     - Develop admin, engineer team, and logistics map webpages for True engineers workforce management; utilized React.
     - Design API for supporting every responsible frontend admin pages; utilized REST API with TypeScript and GraphQL.
@@ -34,5 +38,6 @@
 - title: P Fresh Company
   date: Feb 2018 - Sep 2019
   subtitle: Outsource Developer, Backend
+  stacks: NodeJS, VueJS, Django, MySQL, GraphQL, TypeORM, Docker
   details:
     - Develop and design backend of admin pages with a team to support entire vegetable storage warehouse system; utilized Vue, TypeScript, MySQL, TypeORM, and Django.

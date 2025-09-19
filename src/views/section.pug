@@ -19,6 +19,10 @@ mixin section-item(item)
     if item.details
       .container.pl-10
         ul.list-disc
+          if item.stacks
+            li
+              | Stack used: 
+              strong #{item.stacks}
           each detail in item.details
             li= detail
 
