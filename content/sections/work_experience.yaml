@@ -1,6 +1,6 @@
 - title: Thoughtworks
   date: July 2021 - Present
-  subtitle: DevSecOps/Full Stack Developer
+  subtitle: Platform engineer/DevSecOps
   stacks: AWS(EKS,EC2, ECR,VPC,Secret Manager,IRSA,IAM), K8s, Docker, Kustomize, ArgoCD, Terraform, GithubAction, ReactJS
   details:
     - Developed solutions for airline booking management challenges through data-driven analysis, stakeholder negotiation, and direct customer engagement.
