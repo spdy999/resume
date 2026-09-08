@@ -1,6 +1,6 @@
 - title: The1 (Central Group)
   date: Feb 2026 - Present
-  subtitle: DevSecOps Engineer
+  subtitle: Platform engineer/DevSecOps
   stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,ALB), GCP(BigQuery,VPC Service Controls), K8s, Gateway API, Helm, Terraform, GitLab CI, ArgoCD, Docker, CloudQuery, dbt, Grafana, NodeJS, Kotlin
   details:
     - Introduced AI agents into cloud provisioning ahead of the platform's own CI capability, building Claude Code sub-agents that handled GCP Dataform access and service account requests end to end, converting them into ten reusable agent skills once the shared Terraform pipeline landed, and integrating Jira, Confluence and Grafana over MCP so changes are proposed, planned and documented in one auditable path.
