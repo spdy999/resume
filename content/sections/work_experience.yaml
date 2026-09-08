@@ -4,7 +4,7 @@
   stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,ALB), GCP(BigQuery,VPC Service Controls), K8s, Gateway API, Helm, Terraform, GitLab CI, ArgoCD, Docker, CloudQuery, dbt, Grafana, NodeJS, Kotlin
   details:
     - Designed and delivered squad-based IAM database authentication for Aurora PostgreSQL, replacing shared credentials with per-developer roles and automated provisioning from AWS IAM groups for full audit traceability.
-    - Qualified the design at scale with NodeJS and Kotlin load-test harnesses, proving the real limit is the database TCP accept ceiling rather than the AWS IAM auth quota, with Aurora sustaining 20-27% higher connection throughput than standard RDS.
+    - "Load-tested IAM auth via NodeJS/Kotlin harnesses: zero throttling at 116 connections/s (10M+/day)."
     - Consolidated 38 GCP projects onto a single Terraform workspace and CI pipeline, and introduced a read-only plan service account so reviewers see real Terraform plans on merge requests without gaining write access.
     - Delivered a unified AWS and GCP cloud asset inventory using CloudQuery, dbt and Grafana on EKS, normalising resources from both providers into a single queryable view for the security and platform teams.
     - Rebuilt the shared GitLab runner image as a multi-architecture build with centralised version pinning and CVE remediation, and drove automated patch management and hardening baselines across AWS and GCP.

@@ -4,39 +4,37 @@ languages:
 programming_languages:
   - JavaScript/TypeScript
   - Python
+  - Kotlin
   - Ruby
   - Bash
-  - Kotlin
-other_technical:
-  - Kubernetes
-  - AWS services
+cloud_and_infrastructure:
+  - AWS
   - Google Cloud Platform
-  - Docker
-  - Unix/Linux
-  - Vim/Lazyvim
-  - Kali Linux
-  - Github Action
-  - GitLab CI/CD
-  - Terraform
-  - Helm
+  - Kubernetes
   - Kubernetes Gateway API
+  - Docker
+  - Helm
+  - Terraform
   - CloudFormation
   - ArgoCD
+  - Unix/Linux
+  - Kali Linux
+ci_cd_and_observability:
+  - GitLab CI/CD
+  - GitHub Actions
   - CodeBuild
-  - DataDog
   - Grafana
   - Prometheus
-  - React
-  - Redux
-  - NodeJS
-  - HTML
-  - GraphQL
-  - SQL
+  - DataDog
+data:
   - PostgreSQL
   - BigQuery
   - dbt
   - CloudQuery
+  - GraphQL
+  - Google Cloud Pub/Sub
+web_and_application:
+  - NodeJS
+  - React
   - Ruby on Rails
   - Algolia
-  - Google Cloud Pub/Sub
-  - TypeORM
