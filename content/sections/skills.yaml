@@ -6,25 +6,36 @@ programming_languages:
   - Python
   - Ruby
   - Bash
+  - Kotlin
 other_technical:
   - Kubernetes
   - AWS services
+  - Google Cloud Platform
   - Docker
   - Unix/Linux
   - Vim/Lazyvim
   - Kali Linux
   - Github Action
+  - GitLab CI/CD
   - Terraform
+  - Helm
+  - Kubernetes Gateway API
   - CloudFormation
   - ArgoCD
   - CodeBuild
   - DataDog
+  - Grafana
+  - Prometheus
   - React
   - Redux
   - NodeJS
   - HTML
   - GraphQL
   - SQL
+  - PostgreSQL
+  - BigQuery
+  - dbt
+  - CloudQuery
   - Ruby on Rails
   - Algolia
   - Google Cloud Pub/Sub

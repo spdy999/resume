@@ -16,14 +16,14 @@ mixin section-item(item)
         .section-item-subtitle= item.subtitle
         if !item.title & item.date
           .section-item-date= item.date
-    if item.details
+    if item.details || item.stacks
       .container.pl-10
         ul.list-disc
           if item.stacks
             li
               | Stack used: 
               strong #{item.stacks}
-          each detail in item.details
+          each detail in (item.details || [])
             li= detail
 
 mixin section-item-compact(item)

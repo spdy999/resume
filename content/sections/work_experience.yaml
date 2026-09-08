@@ -1,5 +1,16 @@
+- title: The1 (Central Group)
+  date: Feb 2026 - Present
+  subtitle: DevSecOps Engineer
+  stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,ALB), GCP(BigQuery,VPC Service Controls), K8s, Gateway API, Helm, Terraform, GitLab CI, ArgoCD, Docker, CloudQuery, dbt, Grafana, NodeJS, Kotlin
+  details:
+    - Designed and delivered squad-based IAM database authentication for Aurora PostgreSQL, replacing shared credentials with per-developer roles and automated provisioning from AWS IAM groups for full audit traceability.
+    - Qualified the design at scale with NodeJS and Kotlin load-test harnesses, proving the real limit is the database TCP accept ceiling rather than the AWS IAM auth quota, with Aurora sustaining 20-27% higher connection throughput than standard RDS.
+    - Consolidated 38 GCP projects onto a single Terraform workspace and CI pipeline, and introduced a read-only plan service account so reviewers see real Terraform plans on merge requests without gaining write access.
+    - Delivered a unified AWS and GCP cloud asset inventory using CloudQuery, dbt and Grafana on EKS, normalising resources from both providers into a single queryable view for the security and platform teams.
+    - Rebuilt the shared GitLab runner image as a multi-architecture build with centralised version pinning and CVE remediation, and drove automated patch management and hardening baselines across AWS and GCP.
+    - Introduced AI agents into cloud provisioning ahead of the platform's own CI capability, building Claude Code sub-agents that handled GCP Dataform access and service account requests end to end, converting them into ten reusable agent skills once the shared Terraform pipeline landed, and integrating Jira, Confluence and Grafana over MCP so changes are proposed, planned and documented in one auditable path.
 - title: Thoughtworks
-  date: July 2021 - Present
+  date: July 2021 - Feb 2026
   subtitle: Platform engineer/DevSecOps
   stacks: AWS(EKS,EC2, ECR,VPC,Secret Manager,IRSA,IAM), K8s, Docker, Kustomize, ArgoCD, Terraform, GithubAction, ReactJS
   details:
@@ -32,8 +43,7 @@
   subtitle: Full Stack Developer
   stacks: NodeJS, ReactJS, Apollo GraphQL, GraphQL, MongoDB, REST API, Docker, K8s
   details:
-    - Developed admin, engineer team, and logistics map webpages for True engineers workforce management
-    - Designed API for supporting every responsible frontend admin pages
+    - Built admin, engineer and logistics-map web pages and their supporting APIs for True's engineer workforce management system
     - Encouraged and developed TDD system for minimizing services problems.
 - title: P Fresh Company
   date: Feb 2018 - Sep 2019
