@@ -33,7 +33,18 @@ There is no test suite and no linter. Pushing to `master` triggers `.github/work
 
 **Pug mixins** live in `src/views/section.pug`: `section(title)`, `section-item(item)` (title/date/subtitle/stacks/details), and `section-item-compact(item)` (title + date only, used for awards). Optional YAML fields are guarded with `if`, so items may omit `title`, `date`, `stacks`, or `details`.
 
-**Print is a first-class target.** `tailwind.config.js` defines a custom `print` screen (`{ raw: 'print' }`), so `print:` variants work in Pug classes and `@screen print` works in SCSS. `src/index.scss` pins the body to A4 (`210mm` × `297mm`) with `page-break-after: always`. Changes to layout should be checked in print preview, not just on screen.
+**Print is a first-class target.** `tailwind.config.js` defines a custom `print` screen (`{ raw: 'print' }`), so `print:` variants work in Pug classes and `@screen print` works in SCSS. `src/index.scss` sets the body to A4 width (`210mm`) in print and lets content flow across pages. Changes to layout should be checked in print preview, not just on screen.
+
+To count pages without opening a browser:
+
+```
+npm run build
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --disable-gpu \
+  --no-pdf-header-footer --print-to-pdf=/tmp/r.pdf "file://$PWD/dist/index.html"
+pdftotext /tmp/r.pdf -   # per-page text; count pages via /Type /Page in the PDF
+```
+
+Note headless Chrome does **not** reproduce every print-preview behaviour — see the `page-break-after` gotcha below.
 
 ## Gotchas
 
@@ -41,3 +52,5 @@ There is no test suite and no linter. Pushing to `master` triggers `.github/work
 - `content/sections/address*.yaml` is gitignored (personal address). The `address` local is therefore absent in a fresh clone, and `index.pug` guards it with `if address` / `locals.address`. Keep new personal-data fields behind similar guards.
 - `js-yaml` v3 API (`yaml.safeLoad`) is used with `yamlInclude.YAML_INCLUDE_SCHEMA`; the include base file path is hardcoded to `content/index.yaml` in `build-pug.js`.
 - Locals that come from the include-dir merge are read via `locals.<name>` in `index.pug` to avoid Pug's undefined-variable errors.
+- **A YAML syntax error in `content/` produces a successful-looking build with stale HTML.** `gulp-data` throws inside `buildPug`, but gulp still prints `Finished 'default'` and `buildCss` rewrites the CSS, so only `dist/index.html` is left stale. Most common cause: an unquoted scalar containing `: ` (e.g. `- Load-tested with harnesses: zero throttling`), which YAML reads as a mapping key. Quote any bullet containing a colon, and check the `dist/index.html` mtime if a content change doesn't appear.
+- **Never put `page-break-after: always` on `body`.** It was removed in Sep 2026 because it appended a blank trailing page in Chrome's interactive print preview once content filled the previous page. Headless Chrome collapses that break, so `--print-to-pdf` will *not* reproduce the bug — verify page-break changes in a real print preview. A fixed `max-height: 297mm` on `body` was dropped at the same time; it conflicts with the print dialog's own margins.

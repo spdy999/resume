@@ -18,11 +18,8 @@ body {
   }
 
   @screen print {
-    max-height: 297mm;
     width: 210mm;
   }
-
-  page-break-after: always;
 }
 
 a {
