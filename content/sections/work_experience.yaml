@@ -16,14 +16,14 @@
   details:
     - Developed solutions for airline booking management challenges through data-driven analysis, stakeholder negotiation, and direct customer engagement.
     - Cut infrastructure maintenance costs by $200K annually within one month while sustaining performance.
+    - Advised ~20 teams (~100 engineers) on security and on adopting the platform's microservices.
+    - Mentored senior-level engineers, fostering skill development and team growth.
     - Main anchor to resolve critical technical and security issues under high pressure, enabling timely delivery of high-impact projects.
-    - Implemented scalable and secure microservices architecture on AWS, leveraging multiple EKS clusters and VPCs to support millions of active users.
     - Automated infrastructure with IaC and managed ArgoCD deployments to reduce manual overhead and deployment risk.
+    - Implemented scalable and secure microservices architecture on AWS, leveraging multiple EKS clusters and VPCs to support millions of active users.
     - Led remediation of critical security flaws, including admin bypass via path traversal, and established best-practice controls to harden both development and production environments.
     - Led load testing in isolated sandboxes env to validate application readiness before production rollout.
-    - Advised ~20 teams (~100 engineers) on security and on adopting the platform's microservices.
     - Evaluated new tools and built PoCs for emerging solutions, documenting findings to guide decisions.
-    - Mentored senior-level engineers, fostering skill development and team growth.
 - title: Pomelo Fashion
   date: Feb 2021 - July 2021
   subtitle: Backend Senior Associate
