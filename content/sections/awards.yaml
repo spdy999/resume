@@ -2,9 +2,5 @@
   date: 2026
 - title: AWS Certified Cloud Practitioner (CLF-C02)
   date: 2025
-- title: TryHackMe Advent Of Cyber 2025
-  date: 2025
-- title: TryHackMe Advent Of Cyber 2022
-  date: 2022
-- title: TryHackMe Advent Of Cyber 2021
-  date: 2021
+- title: TryHackMe Advent Of Cyber
+  date: 2021, 2022, 2025
