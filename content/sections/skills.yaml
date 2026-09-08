@@ -4,7 +4,6 @@ languages:
 programming_languages:
   - JavaScript/TypeScript
   - Python
-  - Kotlin
   - Ruby
   - Bash
 cloud_and_infrastructure:
