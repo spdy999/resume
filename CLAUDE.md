@@ -46,6 +46,8 @@ pdftotext /tmp/r.pdf -   # per-page text; count pages via /Type /Page in the PDF
 
 Note headless Chrome does **not** reproduce every print-preview behaviour — see the `page-break-after` gotcha below.
 
+One rendered line in print holds **~99 characters**. A bullet of 100–198 chars wraps to two lines, 199–297 to three. Merging two bullets only saves a line when at least one of them leaves slack at the end of its own line — joining two ~96-char bullets saves nothing.
+
 ## Gotchas
 
 - **Tailwind v1** with `purge: ['src/**/*.pug']`. Class names must appear literally in Pug — never build them from YAML content, or the production build purges them. Utilities with a `:` (`md:`, `print:`) must go in a `class="…"` attribute, not dot-notation.
