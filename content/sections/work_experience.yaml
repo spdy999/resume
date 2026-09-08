@@ -21,9 +21,8 @@
     - Automated infrastructure with IaC and managed ArgoCD deployments to reduce manual overhead and deployment risk.
     - Led remediation of critical security flaws, including admin bypass via path traversal, and established best-practice controls to harden both development and production environments.
     - Led load testing in isolated sandboxes env to validate application readiness before production rollout.
-    - Delivered security guidance and consulting to an account supporting ~20 teams (~100 members)
+    - Advised ~20 teams (~100 engineers) on security and on adopting the platform's microservices.
     - Researched new software tools and documented the findings.
-    - Collaborated with cross-functional teams to ensure integration of microservice applications.
     - Mentored senior-level engineers, fostering skill development and team growth.
     - Developed PoCs for innovative new solutions. Prepared documents to support problem analysis.
 - title: Pomelo Fashion
