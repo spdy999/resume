@@ -1,12 +1,13 @@
 - title: The1 (Central Group)
   date: Feb 2026 - Present
   subtitle: Platform engineer/DevSecOps
-  stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,S3), GCP(BigQuery,GCS,ServiceAccount,Gemini), K8s, Helm, Terraform, GitLab CI, ArgoCD, Docker, CloudQuery, dbt, Grafana
+  stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,S3), GCP(BigQuery,GCS,ServiceAccount,Gemini), K8s, Helm, Terraform, GitLab CI, ArgoCD, Docker, CloudQuery, dbt, Grafana, Claude
   details:
     - "Pioneered AI agents on the platform team: Claude Code sub-agents and skills that turn AWS and GCP infrastructure requests into applied IaC changes, wired to Jira and Grafana over MCP."
     - Designed and delivered the migration of 38 GCP projects from local Terraform runs to a CI pipeline, eliminating state conflicts and unpushed-code applies and making parallel work across the team seamless.
     - Delivered a unified AWS and GCP cloud asset inventory using CloudQuery, dbt and Grafana on EKS, normalising resources from both providers into a single queryable view for the security and platform teams.
     - Rebuilt the shared GitLab runner image as a multi-architecture build with centralised version pinning and CVE remediation.
+    - Owned Claude and Gemini user access for developer and business-unit users, documenting it into step-by-step runbooks that handed day-to-day management to the Service Management team.
     # - Designed and delivered squad-based IAM database authentication for Aurora PostgreSQL, replacing shared credentials with per-developer roles and automated provisioning from AWS IAM groups for full audit traceability.
     # - "Load-tested IAM auth via NodeJS/Kotlin harnesses: zero throttling at 116 connections/s (10M+/day)."
 - title: Thoughtworks
