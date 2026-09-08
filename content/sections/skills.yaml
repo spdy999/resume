@@ -9,22 +9,19 @@ programming_languages:
   - Bash
 cloud_and_infrastructure:
   - AWS
-  - Google Cloud Platform
+  - GCP
   - Kubernetes
-  - Kubernetes Gateway API
   - Docker
   - Helm
   - Terraform
   - CloudFormation
   - ArgoCD
-  - Unix/Linux
-  - Kali Linux
+  - Unix/Linux/Kali Linux
 ci_cd_and_observability:
   - GitLab CI/CD
   - GitHub Actions
   - CodeBuild
   - Grafana
-  - Prometheus
   - DataDog
 data:
   - PostgreSQL
@@ -32,7 +29,6 @@ data:
   - dbt
   - CloudQuery
   - GraphQL
-  - Google Cloud Pub/Sub
 web_and_application:
   - NodeJS
   - React
