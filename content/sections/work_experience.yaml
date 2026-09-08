@@ -22,9 +22,8 @@
     - Led remediation of critical security flaws, including admin bypass via path traversal, and established best-practice controls to harden both development and production environments.
     - Led load testing in isolated sandboxes env to validate application readiness before production rollout.
     - Advised ~20 teams (~100 engineers) on security and on adopting the platform's microservices.
-    - Researched new software tools and documented the findings.
+    - Evaluated new tools and built PoCs for emerging solutions, documenting findings to guide decisions.
     - Mentored senior-level engineers, fostering skill development and team growth.
-    - Developed PoCs for innovative new solutions. Prepared documents to support problem analysis.
 - title: Pomelo Fashion
   date: Feb 2021 - July 2021
   subtitle: Backend Senior Associate
