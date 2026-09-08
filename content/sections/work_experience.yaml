@@ -7,8 +7,8 @@
     - Consolidated 38 GCP projects onto a single Terraform workspace and CI pipeline, and introduced a read-only plan service account so reviewers see real Terraform plans on merge requests without gaining write access.
     - Delivered a unified AWS and GCP cloud asset inventory using CloudQuery, dbt and Grafana on EKS, normalising resources from both providers into a single queryable view for the security and platform teams.
     - Rebuilt the shared GitLab runner image as a multi-architecture build with centralised version pinning and CVE remediation.
-    - Designed and delivered squad-based IAM database authentication for Aurora PostgreSQL, replacing shared credentials with per-developer roles and automated provisioning from AWS IAM groups for full audit traceability.
-    - "Load-tested IAM auth via NodeJS/Kotlin harnesses: zero throttling at 116 connections/s (10M+/day)."
+    # - Designed and delivered squad-based IAM database authentication for Aurora PostgreSQL, replacing shared credentials with per-developer roles and automated provisioning from AWS IAM groups for full audit traceability.
+    # - "Load-tested IAM auth via NodeJS/Kotlin harnesses: zero throttling at 116 connections/s (10M+/day)."
 - title: Thoughtworks
   date: July 2021 - Feb 2026
   subtitle: Platform engineer/DevSecOps
