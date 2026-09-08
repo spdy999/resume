@@ -3,7 +3,7 @@
   subtitle: Platform engineer/DevSecOps
   stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager), GCP(BigQuery,ServiceAccount), K8s, Helm, Terraform, GitLab CI, ArgoCD, Docker, CloudQuery, dbt, Grafana
   details:
-    - Introduced AI agents into cloud provisioning ahead of the platform's own CI capability, building Claude Code sub-agents that handled GCP Dataform access and service account requests end to end, converting them into ten reusable agent skills once the shared Terraform pipeline landed, and integrating Jira, Confluence and Grafana over MCP so changes are proposed, planned and documented in one auditable path.
+    - "Pioneered AI agents on the platform team: Claude Code sub-agents and skills that turn AWS and GCP infrastructure requests into applied IaC changes, wired to Jira and Grafana over MCP."
     - Designed and delivered the migration of 38 GCP projects from local Terraform runs to a CI pipeline, eliminating state conflicts and unpushed-code applies and making parallel work across the team seamless.
     - Delivered a unified AWS and GCP cloud asset inventory using CloudQuery, dbt and Grafana on EKS, normalising resources from both providers into a single queryable view for the security and platform teams.
     - Rebuilt the shared GitLab runner image as a multi-architecture build with centralised version pinning and CVE remediation.
