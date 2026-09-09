@@ -23,20 +23,20 @@
     - Automated infrastructure with IaC and managed ArgoCD deployments to reduce manual overhead and deployment risk.
     - Implemented scalable and secure microservices architecture on AWS, leveraging multiple EKS clusters and VPCs to support millions of active users.
     - Led remediation of critical security flaws, including admin bypass via path traversal, and established best-practice controls to harden both development and production environments.
-    - Led load testing in isolated sandboxes env to validate application readiness before production rollout.
+    - Led load testing in isolated sandbox environments to validate application readiness before production rollout.
     - Evaluated new tools and built PoCs for emerging solutions, documenting findings to guide decisions.
 - title: Pomelo Fashion
   date: Feb 2021 - July 2021
   subtitle: Backend Senior Associate
   stacks: AWS Serverless, AWS Cognito
   details:
-    - Developed backend for authentication system to support e-commerce for Fashion company.
+    - Developed backend for authentication system to support e-commerce for a fashion company.
 - title: SSTP Enterprise Co., Ltd.
   date: Dec 2019 - Dec 2020
   subtitle: Backend Developer
   stacks: Ruby on Rails, Algolia, Firebase, Google Cloud Pub/Sub, Docker, K8s
   details:
-    - Designed and developed game competition systems including Normal Match, Matchmaking, and Single Elimination, by building robust databases and APIs.
+    - Designed and developed game competition systems including Normal Match, Matchmaking, and Single Elimination by building robust databases and APIs.
 - title: True elogistics
   date: Jun 2019 - Nov 2019
   subtitle: Full Stack Developer
@@ -49,4 +49,4 @@
   subtitle: Outsource Developer, Backend
   stacks: NodeJS, VueJS, Django, Python, MySQL, GraphQL, TypeORM, Docker
   details:
-    - Developed backend of admin pages with a team to support entire vegetable storage warehouse system
+    - Developed backend of admin pages with a team to support the entire vegetable storage warehouse system.

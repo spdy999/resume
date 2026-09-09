@@ -5,6 +5,6 @@ github: https://github.com/spdy999
 linkedin: https://linkedin.com/in/pornchanok-ap
 page_source: https://github.com/spdy999/resume
 summary: |
-  Software Engineer with 8 years of experience, Bachelor's Degree Engineering, and passion in building software.
+  Software Engineer with 8 years of experience, Bachelor's Degree in Engineering, and a passion for building software.
   Proficient in cloud platform engineering, infrastructure as code, and web development. Passionate about cybersecurity and software architectures.
 <<: !!inc/dir ["sections", {excludeTopLevelDirSeparator: true}]
