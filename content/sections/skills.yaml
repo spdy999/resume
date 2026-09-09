@@ -10,12 +10,12 @@ cloud_and_infrastructure:
   - AWS
   - GCP
   - Kubernetes
+  - Terraform
+  - Unix/Linux/Kali Linux
   - Docker
   - Helm
-  - Terraform
-  - CloudFormation
+  - Kustomize
   - ArgoCD
-  - Unix/Linux/Kali Linux
 ci_cd_and_observability:
   - GitLab CI/CD
   - GitHub Actions
