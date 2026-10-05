@@ -1,7 +1,7 @@
 - title: The1 (Central Group)
   date: Feb 2026 - Present
   subtitle: Platform engineer/DevSecOps
-  stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,S3), GCP(BigQuery,GCS,ServiceAccount,Gemini), K8s, Helm, Terraform, GitLab CI, ArgoCD, Docker, CloudQuery, dbt, Grafana, Claude
+  stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,S3), GCP(BigQuery,GCS,ServiceAccount,Gemini), K8s, Helm, Terraform, GitLab CI, Docker, CloudQuery, dbt, Grafana, Claude
   details:
     - "Pioneered AI agents on the platform team: Claude Code sub-agents and skills that turn AWS and GCP infrastructure requests into applied IaC changes, wired to Jira and Grafana over MCP."
     - Designed and delivered the migration of 38 GCP projects from local Terraform runs to a CI pipeline, eliminating state conflicts and applies from unpushed code, and unblocking parallel work across the team.
