@@ -1,0 +1,35 @@
+# Agoda – [Infra] Senior Software Engineer, Kubernetes Platform (job 8305589), Oct 2026.
+# Ported from the agoda-k8s-platform branch.
+summary: |
+  Software Engineer with 8 years of experience, the last 5 building and running Kubernetes platforms on AWS EKS: Helm, GitOps with ArgoCD, and Prometheus/Grafana observability.
+  Ships changes with tests and smoke checks, and uses coding agents (Claude Code) daily for infrastructure work. Bachelor's Degree in Engineering. Passionate about cybersecurity and platform architecture.
+
+work_experience:
+  the1:
+    stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,S3), GCP(BigQuery,GCS,ServiceAccount,Gemini), K8s, Helm, Terraform, GitLab CI, Docker, Prometheus, Grafana, CloudQuery, dbt, Claude
+    details:
+      - eks-upgrade
+      - runner-alerting
+      - ai-agents
+      - gcp-ci-migration
+      - asset-inventory
+      - runner-image
+  thoughtworks:
+    details:
+      - eks-microservices
+      - id: iac-argocd
+        text: Ran GitOps delivery with ArgoCD and Kustomize, and automated infrastructure with Terraform, reducing manual overhead and deployment risk.
+      - incident-anchor
+      - security-remediation
+      - advised-teams
+      - mentoring
+      - load-testing
+      - cost-cut
+      - tool-evaluation
+
+skills:
+  cloud_and_infrastructure:
+    add: [Cluster Autoscaler]
+  ci_cd_and_observability:
+    remove: [Grafana, DataDog]
+    add: [Prometheus, Grafana, DataDog]
