@@ -6,18 +6,15 @@
   details:
     - id: eks-upgrade
       default: false
-      text: Upgraded EKS to 1.34 together with the Cluster Autoscaler chart and image.
-    - id: runner-alerting
-      default: false
-      text: "Built metrics and alerting for an autoscaling (0-100 instance) GitLab runner fleet: node_exporter and Prometheus EC2 service discovery into Grafana, thresholds backtested over 7 days."
+      text: Maintained EKS clusters and their add-ons (Cluster Autoscaler, Prometheus), keeping Kubernetes versions current.
     - id: ai-agents
       text: "Pioneered AI agents on the platform team: Claude Code sub-agents and skills that turn AWS and GCP infrastructure requests into applied IaC changes, wired to Jira and Grafana over MCP."
     - id: gcp-ci-migration
       text: Designed and delivered the migration of 38 GCP projects from local Terraform runs to a CI pipeline, eliminating state conflicts and applies from unpushed code, and unblocking parallel work across the team.
     - id: asset-inventory
       text: Delivered a unified AWS and GCP cloud asset inventory using CloudQuery, dbt and Grafana on EKS, normalising resources from both providers into a single queryable view for the security and platform teams.
-    - id: runner-image
-      text: Rebuilt the shared GitLab runner image as a multi-architecture build with centralised version pinning and CVE remediation.
+    - id: runner-fleet
+      text: Pioneered Git-driven GitLab runner config deploys, replacing manual copy-paste; fixed long-standing issues, rebuilt the runner image as a multi-arch build with pinned versions and CVE fixes, and added Prometheus/Grafana monitoring for fast, easy maintenance.
     - id: ai-access-runbooks
       text: Owned Claude and Gemini access for developers and business units, documenting it into step-by-step runbooks that handed day-to-day management to the Service Management team.
     # - Designed and delivered squad-based IAM database authentication for Aurora PostgreSQL, replacing shared credentials with per-developer roles and automated provisioning from AWS IAM groups for full audit traceability.

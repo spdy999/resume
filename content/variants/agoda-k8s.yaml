@@ -9,11 +9,10 @@ work_experience:
     stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,S3), GCP(BigQuery,GCS,ServiceAccount,Gemini), K8s, Helm, Terraform, GitLab CI, Docker, Prometheus, Grafana, CloudQuery, dbt, Claude
     details:
       - eks-upgrade
-      - runner-alerting
+      - runner-fleet
       - ai-agents
       - gcp-ci-migration
       - asset-inventory
-      - runner-image
   thoughtworks:
     details:
       - eks-microservices
