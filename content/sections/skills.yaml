@@ -14,12 +14,14 @@ cloud_and_infrastructure:
   - Unix/Linux/Kali Linux
   - Docker
   - Helm
+  - Cluster Autoscaler
   - Kustomize
   - ArgoCD
 ci_cd_and_observability:
   - GitLab CI/CD
   - GitHub Actions
   - CodeBuild
+  - Prometheus
   - Grafana
   - DataDog
 data:

@@ -2,7 +2,7 @@
   title: The1 (Central Group)
   date: Feb 2026 - Present
   subtitle: Platform engineer/DevSecOps
-  stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,S3), GCP(BigQuery,GCS,ServiceAccount,Gemini), K8s, Helm, Terraform, GitLab CI, Docker, CloudQuery, dbt, Grafana, Claude
+  stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,S3), GCP(BigQuery,GCS,ServiceAccount,Gemini), K8s, Helm, Terraform, GitLab CI, Docker, Prometheus, Grafana, CloudQuery, dbt, Claude
   details:
     - id: eks-upgrade
       default: false

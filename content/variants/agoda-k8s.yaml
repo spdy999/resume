@@ -6,7 +6,6 @@ summary: |
 
 work_experience:
   the1:
-    stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,S3), GCP(BigQuery,GCS,ServiceAccount,Gemini), K8s, Helm, Terraform, GitLab CI, Docker, Prometheus, Grafana, CloudQuery, dbt, Claude
     details:
       - eks-upgrade
       - runner-fleet
@@ -25,10 +24,3 @@ work_experience:
       - load-testing
       - cost-cut
       - tool-evaluation
-
-skills:
-  cloud_and_infrastructure:
-    add: [Cluster Autoscaler]
-  ci_cd_and_observability:
-    remove: [Grafana, DataDog]
-    add: [Prometheus, Grafana, DataDog]
