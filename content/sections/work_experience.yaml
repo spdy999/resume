@@ -17,7 +17,9 @@
       text: Pioneered Git-driven GitLab runner config deploys, replacing manual copy-paste; fixed long-standing issues, rebuilt the runner image as a multi-arch build with pinned versions and CVE fixes, and added Prometheus/Grafana monitoring for fast, easy maintenance.
     - id: ai-access-runbooks
       text: Owned Claude and Gemini access for developers and business units, documenting it into step-by-step runbooks that handed day-to-day management to the Service Management team.
-    # - Designed and delivered squad-based IAM database authentication for Aurora PostgreSQL, replacing shared credentials with per-developer roles and automated provisioning from AWS IAM groups for full audit traceability.
+    - id: iam-db-auth
+      default: false
+      text: Replaced shared Aurora PostgreSQL credentials with IAM authentication and per-developer roles provisioned from AWS IAM groups, giving full audit traceability.
     # - "Load-tested IAM auth via NodeJS/Kotlin harnesses: zero throttling at 116 connections/s (10M+/day)."
 - id: thoughtworks
   title: Thoughtworks

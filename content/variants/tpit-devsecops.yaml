@@ -1,0 +1,26 @@
+# Tri Petch IT Solutions (TPIT) – DevSecOps Engineer, Nov 2026.
+summary: |
+  DevSecOps and platform engineer with 8 years of experience, building CI/CD pipelines, Terraform infrastructure on AWS and GCP, Kubernetes platforms, and Prometheus/Grafana monitoring.
+  Hardens access controls, remediates security flaws, and uses agentic AI (Claude Code) for infrastructure operations. Bachelor's Degree in Engineering. Passionate about cybersecurity.
+
+work_experience:
+  the1:
+    details:
+      - iam-db-auth
+      - runner-fleet
+      - gcp-ci-migration
+      - ai-agents
+      - asset-inventory
+      - eks-upgrade
+      - ai-access-runbooks
+  thoughtworks:
+    details:
+      - security-remediation
+      - advised-teams
+      - incident-anchor
+      - iac-argocd
+      - eks-microservices
+      - cost-cut
+      - load-testing
+      - tool-evaluation
+      - mentoring
