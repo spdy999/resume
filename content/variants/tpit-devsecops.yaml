@@ -11,8 +11,6 @@ work_experience:
       - gcp-ci-migration
       - ai-agents
       - asset-inventory
-      - eks-upgrade
-      - ai-access-runbooks
   thoughtworks:
     details:
       - security-remediation
@@ -21,6 +19,4 @@ work_experience:
       - iac-argocd
       - eks-microservices
       - cost-cut
-      - load-testing
       - tool-evaluation
-      - mentoring
