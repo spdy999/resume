@@ -4,22 +4,22 @@
   subtitle: Platform engineer/DevSecOps
   stacks: AWS(EKS,Aurora PostgreSQL,ECR,IAM,IRSA,Secrets Manager,S3), GCP(BigQuery,GCS,ServiceAccount,Gemini), K8s, Helm, Terraform, GitLab CI, Docker, Prometheus, Grafana, CloudQuery, dbt, Claude
   details:
+    - id: iam-db-auth
+      text: Replaced shared Aurora PostgreSQL credentials with IAM authentication and per-developer roles provisioned from AWS IAM groups, giving full audit traceability.
+    - id: runner-fleet
+      text: Pioneered Git-driven GitLab runner config deploys, replacing manual copy-paste; fixed long-standing issues, rebuilt the runner image as a multi-arch build with pinned versions and CVE fixes, and added Prometheus/Grafana monitoring for fast, easy maintenance.
+    - id: gcp-ci-migration
+      text: Designed and delivered the migration of 38 GCP projects from local Terraform runs to a CI pipeline, eliminating state conflicts and applies from unpushed code, and unblocking parallel work across the team.
+    - id: ai-agents
+      text: "Pioneered AI agents on the platform team: Claude Code sub-agents and skills that turn AWS and GCP infrastructure requests into applied IaC changes, wired to Jira and Grafana over MCP."
+    - id: asset-inventory
+      text: Delivered a unified AWS and GCP cloud asset inventory using CloudQuery, dbt and Grafana on EKS, normalising resources from both providers into a single queryable view for the security and platform teams.
     - id: eks-upgrade
       default: false
       text: Maintained EKS clusters and their add-ons (Cluster Autoscaler, Prometheus), keeping Kubernetes versions current.
-    - id: ai-agents
-      text: "Pioneered AI agents on the platform team: Claude Code sub-agents and skills that turn AWS and GCP infrastructure requests into applied IaC changes, wired to Jira and Grafana over MCP."
-    - id: gcp-ci-migration
-      text: Designed and delivered the migration of 38 GCP projects from local Terraform runs to a CI pipeline, eliminating state conflicts and applies from unpushed code, and unblocking parallel work across the team.
-    - id: asset-inventory
-      text: Delivered a unified AWS and GCP cloud asset inventory using CloudQuery, dbt and Grafana on EKS, normalising resources from both providers into a single queryable view for the security and platform teams.
-    - id: runner-fleet
-      text: Pioneered Git-driven GitLab runner config deploys, replacing manual copy-paste; fixed long-standing issues, rebuilt the runner image as a multi-arch build with pinned versions and CVE fixes, and added Prometheus/Grafana monitoring for fast, easy maintenance.
     - id: ai-access-runbooks
-      text: Owned Claude and Gemini access for developers and business units, documenting it into step-by-step runbooks that handed day-to-day management to the Service Management team.
-    - id: iam-db-auth
       default: false
-      text: Replaced shared Aurora PostgreSQL credentials with IAM authentication and per-developer roles provisioned from AWS IAM groups, giving full audit traceability.
+      text: Owned Claude and Gemini access for developers and business units, documenting it into step-by-step runbooks that handed day-to-day management to the Service Management team.
     # - "Load-tested IAM auth via NodeJS/Kotlin harnesses: zero throttling at 116 connections/s (10M+/day)."
 - id: thoughtworks
   title: Thoughtworks
@@ -27,26 +27,26 @@
   subtitle: Platform engineer/DevSecOps
   stacks: AWS(EKS,EC2,ECR,VPC,Secrets Manager,IRSA,IAM), K8s, Docker, Kustomize, ArgoCD, Terraform, GitHub Actions, ReactJS
   details:
-    - id: airline-booking
-      text: Developed solutions for airline booking management challenges through data-driven analysis, stakeholder negotiation, and direct customer engagement.
-    - id: cost-cut
-      text: Cut infrastructure maintenance costs by $200K annually within one month while sustaining performance.
+    - id: security-remediation
+      text: Led remediation of critical security flaws, including admin bypass via path traversal, and established best-practice controls to harden both development and production environments.
     - id: advised-teams
       text: Advised ~20 teams (~100 engineers) on security and on adopting the platform's microservices.
-    - id: mentoring
-      text: Mentored senior-level engineers, fostering skill development and team growth.
     - id: incident-anchor
       text: Main anchor to resolve critical technical and security issues under high pressure, enabling timely delivery of high-impact projects.
     - id: iac-argocd
       text: Automated infrastructure with IaC and managed ArgoCD deployments to reduce manual overhead and deployment risk.
     - id: eks-microservices
       text: Implemented scalable and secure microservices architecture on AWS, leveraging multiple EKS clusters and VPCs to support millions of active users.
-    - id: security-remediation
-      text: Led remediation of critical security flaws, including admin bypass via path traversal, and established best-practice controls to harden both development and production environments.
+    - id: cost-cut
+      text: Cut infrastructure maintenance costs by $200K annually within one month while sustaining performance.
     - id: load-testing
-      text: Led load testing in isolated sandbox environments to validate application readiness before production rollout.
+      text: Led load testing in isolated sandboxes to validate readiness before production rollout.
     - id: tool-evaluation
       text: Evaluated new tools and built PoCs for emerging solutions, documenting findings to guide decisions.
+    - id: mentoring
+      text: Mentored senior-level engineers, fostering skill development and team growth.
+    - id: airline-booking
+      text: Developed solutions for airline booking management challenges through data-driven analysis, stakeholder negotiation, and direct customer engagement.
 - id: pomelo
   title: Pomelo Fashion
   date: Feb 2021 - July 2021

@@ -5,6 +5,6 @@ github: https://github.com/spdy999
 linkedin: https://linkedin.com/in/pornchanok-ap
 page_source: https://github.com/spdy999/resume
 summary: |
-  Software Engineer with 8 years of experience, Bachelor's Degree in Engineering, and a passion for building software.
-  Proficient in cloud platform engineering, infrastructure as code, and web development. Passionate about cybersecurity and software architectures.
+  DevSecOps and platform engineer with 8 years of experience, building CI/CD pipelines, Terraform infrastructure on AWS and GCP, Kubernetes platforms, and Prometheus/Grafana monitoring.
+  Hardens access controls, remediates security flaws, and uses agentic AI (Claude Code) for infrastructure operations. Bachelor's Degree in Engineering. Passionate about cybersecurity.
 <<: !!inc/dir ["sections", {excludeTopLevelDirSeparator: true}]
